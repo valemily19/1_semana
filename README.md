@@ -1,4 +1,4 @@
-# Semana 1 - Wendy Mora
+# Semana 1 - Danna Misnaza
 
 ## Descripción
 

@@ -1,10 +1,10 @@
 import * as React from "react";
 import { useState } from "react";
-import { SafeAreaView, ScrollView, View, Text, Image, FlatList, TextInput, TouchableOpacity } from "react-native";
+import { FlatList, Image, SafeAreaView, ScrollView, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 // Datos de ejemplo
 const userProfile = {
-  name: "Wendy Mora",
+  name: "Danna Misnaza",
   title: "Frontend Developer",
   avatar: "https://i.pravatar.cc/300",
   bio: "Apasionada por crear interfaces limpias y responsive."
@@ -17,11 +17,11 @@ const cardData = [
 ];
 
 const contactsData = [
-  { id: "1", name: "Juan Pérez", phone: "3001234567" },
-  { id: "2", name: "María Gómez", phone: "3019876543" },
-  { id: "3", name: "Carlos Ruiz", phone: "3025647382" },
-  { id: "4", name: "Ana Torres", phone: "3038765432" },
-  { id: "5", name: "Luis Castro", phone: "3041237890" }
+  { id: "1", name: "Julian Reyes", phone: "3001234567" },
+  { id: "2", name: "Alexandra Duque", phone: "3019876543" },
+  { id: "3", name: "Marcela Martin", phone: "3825647382" },
+  { id: "4", name: "Angel Segura", phone: "3238765432" },
+  { id: "5", name: "Paula Nieto", phone: "3441237890" }
 ];
 
 export default function App() {
